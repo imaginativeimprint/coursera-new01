@@ -1,74 +1,95 @@
 # coursera-new01
 Coursera course beginning
 
+
 <!DOCTYPE html>
 <html>
- <body>
-     
-  <img src="https://assets.onecompiler.app/42zp5pya9/42zqvwrtu/logo-EWIT.png" width=600 height=80>     
-  <header><h3><p style="text-decoration:underline; color:red">Fill the Registration Form</p></h3></header>     
-  
-  <div><section>
-  <ul><li>Enter you USN number</li></ol>
-  <input type="value" name="user_value" placeholder="Enter your USN number"></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter your name as in your 10th markscard</li></ol>
-  <input type="text" name="username" placeholder="Enter your name"></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter your date of birth</li></ol>
-  <input type="date" name="user_dob" placeholder="Enter your DOB"></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter you mobile no.</li></ol>
-  <input type="value" name="user_photo" placeholder="Enter your mobile no."></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Applod your recent photo</li></ol>
-  <input type="file" name="user_photo" placeholder="appload a file"></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Appload you signature</li></ol>
-  <input type="file" name="user_sign" placeholder="applod a file"></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter your aadhar number</li></ol>
-  <input type="value" name="user_aadhar" placeholder="Enter your aadhar number"></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter your father name</li></ol>
-  <input type="text" name="user_father" placeholder="Enter your father name"></input><br><br>
-  <input type="value" name="user_f_no" placeholder="Enter your father mobile no."></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter your mother name</li></ol>
-  <input type="text" name="user_mother" placeholder="Enter your mother name"></input><br><br>
-  <input type="value" name="user_f_no" placeholder="Enter your mother mobile no."></input>
-  </section></div>
-  
-  <div><section>
-  <ul><li>Enter your current address
- 
-  <input type="text" name="user_c_address" placeholder="Enter your current address"></input>
-  <br>
-    Enter your main address
-  <input type="text" name="user_c_address" placeholder="Enter your main address"></input></li></ol>
-  </section></div>
-  <button style="color:blue"><strong>submit</strong></button>
-  
+<head>
+  <title>Registration Form</title>
+  <style>
+    /* Add your styles here */
+  </style>
+</head>
+<body>
+  <img src="https://assets.onecompiler.app/42zp5pya9/42zqvwrtu/logo-EWIT.png" width="600" height="80">
+  <header>
+    <h3>
+      <p style="text-decoration:underline; color:red">Fill the Registration Form</p>
+    </h3>
+  </header>
+  <form>
+    <div>
+      <section>
+        <label for="usn">Enter your USN number:</label>
+        <input type="text" id="usn" name="usn">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="name">Enter your name as in your 10th markscard:</label>
+        <input type="text" id="name" name="name">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="dob">Enter your date of birth:</label>
+        <input type="date" id="dob" name="dob">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="mobile">Enter your mobile number:</label>
+        <input type="text" id="mobile" name="mobile">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="photo">Upload your recent photo:</label>
+        <input type="file" id="photo" name="photo">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="signature">Upload your signature:</label>
+        <input type="file" id="signature" name="signature">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="aadhar">Enter your Aadhar number:</label>
+        <input type="text" id="aadhar" name="aadhar">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="father_name">Enter your father's name:</label>
+        <input type="text" id="father_name" name="father_name">
+        <br><br>
+        <label for="father_mobile">Enter your father's mobile number:</label>
+        <input type="text" id="father_mobile" name="father_mobile">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="mother_name">Enter your mother's name:</label>
+        <input type="text" id="mother_name" name="mother_name">
+        <br><br>
+        <label for="mother_mobile">Enter your mother's mobile number:</label>
+        <input type="text" id="mother_mobile" name="mother_mobile">
+      </section>
+    </div><br>
+    <div>
+      <section>
+        <label for="current_address">Enter your current address:</label>
+        <input type="text" id="current_address" name="current_address">
+        <br><br>
+        <label for="main_address">Enter your main address:</label>
+        <input type="text" id="main_address" name="main_address">
+      </section>
+    </div><br>
+    <button type="submit" style="color:blue"><strong>Submit</strong></button>
+  </form>
   <br><br><br><br>
-  <br><br><br><br>
-  
   created by Shashank P
-  
- </body>    
-</html>  
+</body>
+</html>
