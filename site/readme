@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
- <body>
-  <div style="background-color: pink"     
-  <header><h1><p>Marriage proposal</p></h1></header> 
-  by: <p style="color: white"> <strong> Rahul M V</strong></p>
-  <img src="https://assets.onecompiler.app/42zp5pya9/42zscq2eu/rahu.jpg" width=150 height=300>     
-  <section>
-  <details>
-      <summary>Groom Details</summary> <main>
-    <p>Name: Rahul M V </p>   
-    <P> Date of Birth: 12-05-2006</P>
-     Gender: Male
-     <p>Height : 6ft</p>
-     
-     <p> Father Name: VASANTH KUMAR M</p>
- <p>Father Aadhaar Number:</p>
- <p>455922088544</p>
-<p> Father Email:</p>
-<p> rahulvasanth06@gmail.com</p>
-<p> Father Mobile: 8971876127</p>
- <p>Mother Name: ROOPA S</p>
- <p>Mother Aadhaar Number:</p>
- <p>225699470673</p>
- <p>Mother Email:</p>
- <p>rahulvasanth06@gmail.com</p>
- <p>Mother Mobile: 8971876127</p>
-   </main>   </details>   
-  </section>
-  
+<body>
+  <div style="background-color: pink;">
+    <header>
+      <h1>
+        <p>Marriage proposal</p>
+      </h1>
+    </header>
+    by: 
+    <p style="color: white">
+      <strong>Rahul M V</strong>
+    </p>
+    <img src="https://assets.onecompiler.app/42zp5pya9/42zscq2eu/rahu.jpg" width="150" height="300">
+    <section>
+      <details>
+        <summary>Groom Details</summary>
+        <p>Name: Rahul M V</p>
+        <p>Date of Birth: 12-05-2006</p>
+        <p>Gender: Male</p>
+        <p>Height: 6ft</p>
+        <p>Father Name: VASANTH KUMAR M</p>
+        <p>Father Aadhaar Number: 455922088544</p>
+        <p>Father Email: rahulvasanth06@gmail.com</p>
+        <p>Father Mobile: 8971876127</p>
+        <p>Mother Name: ROOPA S</p>
+        <p>Mother Aadhaar Number: 225699470673</p>
+        <p>Mother Email: rahulvasanth06@gmail.com</p>
+        <p>Mother Mobile: 8971876127</p>
+      </details>
+    </section>
+  </div>
+</body>
+</html>
