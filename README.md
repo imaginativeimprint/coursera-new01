@@ -1,5 +1,6 @@
 # coursera-new01
 Coursera course beginning
+
 <!DOCTYPE html>
 <html>
  <body>
@@ -17,12 +18,12 @@ Coursera course beginning
   <input type="text" name="username" placeholder="Enter your name"></input>
   </section></div>
   
-   <div><section>
+  <div><section>
   <ul><li>Enter your date of birth</li></ol>
   <input type="date" name="user_dob" placeholder="Enter your DOB"></input>
   </section></div>
   
-   <div><section>
+  <div><section>
   <ul><li>Enter you mobile no.</li></ol>
   <input type="value" name="user_photo" placeholder="Enter your mobile no."></input>
   </section></div>
