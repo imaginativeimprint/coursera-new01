@@ -3,6 +3,8 @@ Coursera course beginning
 
 
 <!DOCTYPE html>
+
+
 <html>
 <head>
   <title>Registration Form</title>
